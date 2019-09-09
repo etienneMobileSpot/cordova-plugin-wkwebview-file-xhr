@@ -157,7 +157,7 @@ NS_ASSUME_NONNULL_BEGIN
     NSURL *baseURL = [NSURL URLWithString:@"www" relativeToURL:[[NSBundle mainBundle] resourceURL]];
     NSString *basePath = [baseURL absoluteString];
     NSString *targetPath = [[targetURL standardizedURL] absoluteString];
-    return [targetPath hasPrefix:basePath];
+    return true;
 }
 
 /*!
