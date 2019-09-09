@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-wkwebview-file-xhr-ms",
+  "name": "https://github.com/etienneMobileSpot/cordova-plugin-wkwebview-file-xhr.git",
   "version": "2.1.1",
   "description": "Cordova WKWebView File XHR Plugin",
   "cordova": {
-    "id": "cordova-plugin-wkwebview-file-xhr-ms",
+    "id": "https://github.com/etienneMobileSpot/cordova-plugin-wkwebview-file-xhr.git",
     "platforms": [
       "ios"
     ]
