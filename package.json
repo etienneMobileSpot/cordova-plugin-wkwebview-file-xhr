@@ -1,16 +1,16 @@
 {
-  "name": "cordova-plugin-wkwebview-file-xhr",
+  "name": "cordova-plugin-wkwebview-file-xhr-ms",
   "version": "2.1.1",
   "description": "Cordova WKWebView File XHR Plugin",
   "cordova": {
-    "id": "cordova-plugin-wkwebview-file-xhr",
+    "id": "cordova-plugin-wkwebview-file-xhr-ms",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oracle/cordova-plugin-wkwebview-file-xhr"
+    "url": "https://github.com/etienneMobileSpot/cordova-plugin-wkwebview-file-xhr"
   },
   "keywords": [
     "cordova",
