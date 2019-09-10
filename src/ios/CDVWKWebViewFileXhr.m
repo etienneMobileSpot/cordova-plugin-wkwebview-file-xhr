@@ -70,6 +70,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 -(void) pluginInitialize {
+
+    //////// WKWebView-iOS12-only
+    if (! @available(iOS 12.0, *)) {
+        return;
+    }
+
     [super pluginInitialize];
     
     if (![self.webView isKindOfClass:WKWebView.class])
