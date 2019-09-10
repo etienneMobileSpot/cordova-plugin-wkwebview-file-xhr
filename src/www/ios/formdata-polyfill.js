@@ -43,6 +43,8 @@
 'use strict';
 (function ()
 {
+  if(!(!!(window.webkit && window.webkit.messageHandlers)))
+    return;
   function __FormData(formElement)
   {
     this._map = new Map();

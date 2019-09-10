@@ -35,7 +35,9 @@
 (function ()
 {
 
-
+  if(!(!!(window.webkit && window.webkit.messageHandlers)))
+    return;
+  
   var exec = require('cordova/exec');
 
   // Handles native file:// XHR GET requests

@@ -1,6 +1,9 @@
 (function(self) {
   'use strict';
 
+  if(!(!!(window.webkit && window.webkit.messageHandlers)))
+    return;
+
   if (self.fetch) {
     return
   }
