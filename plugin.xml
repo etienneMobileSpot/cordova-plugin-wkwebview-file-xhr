@@ -30,7 +30,7 @@
     <dependency id="cordova-plugin-wkwebview-engine" />
     <engines>
       <engine name="cordova-ios" version=">=4.0.0" />
-      <engine name="apple-ios" version=">=12.0" />
+      <engine name="apple-ios" version=">=9.0" />
     </engines>
 
     <!-- ios -->
